@@ -20,6 +20,7 @@ public cargar_productos(){
 
           console.log(res.json());
           this.cargando=false;
+          this.productos=res.json();
         })
 
 
