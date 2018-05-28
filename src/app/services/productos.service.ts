@@ -18,7 +18,7 @@ public cargar_productos(){
     this.http.get("https://paginaweb-6750f.firebaseio.com/productos_idx.json")
         .subscribe(res=> {
 
-          console.log(res.json());
+          // console.log(res.json());
 
           // setTimeout(()=>{
             this.cargando=false;
