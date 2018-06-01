@@ -17,6 +17,7 @@ import { FootersComponent } from './components/footers/footers.component';
 import { PortafolioComponent } from './components/portafolio/portafolio.component';
 import { AboutComponent } from './components/about/about.component';
 import { ProductoComponent } from './components/producto/producto.component';
+import { SearchComponent } from './components/search/search.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { ProductoComponent } from './components/producto/producto.component';
     FootersComponent,
     PortafolioComponent,
     AboutComponent,
-    ProductoComponent
+    ProductoComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
